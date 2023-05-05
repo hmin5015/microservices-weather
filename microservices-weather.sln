@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWeather.DataLoader", "CloudWeather.DataLoader\CloudWeather.DataLoader.csproj", "{E26A39A3-EC82-4C8F-BD62-2225B565D30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudWeather.DataLoader", "CloudWeather.DataLoader\CloudWeather.DataLoader.csproj", "{E26A39A3-EC82-4C8F-BD62-2225B565D30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWeather.Precipitation", "CloudWeather.Precipitation\CloudWeather.Precipitation.csproj", "{4ADC7AB0-0BA4-4EF6-925C-5D638BC723F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudWeather.Precipitation", "CloudWeather.Precipitation\CloudWeather.Precipitation.csproj", "{4ADC7AB0-0BA4-4EF6-925C-5D638BC723F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWeather.Report", "CloudWeather.Report\CloudWeather.Report.csproj", "{C39454FF-F847-4999-B08B-2DC746C2A438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudWeather.Report", "CloudWeather.Report\CloudWeather.Report.csproj", "{C39454FF-F847-4999-B08B-2DC746C2A438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudWeather.Temperature", "CloudWeather.Temperature\CloudWeather.Temperature.csproj", "{45BE5183-4B10-475E-A255-587B1FE69699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudWeather.Temperature", "CloudWeather.Temperature\CloudWeather.Temperature.csproj", "{45BE5183-4B10-475E-A255-587B1FE69699}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E26A39A3-EC82-4C8F-BD62-2225B565D30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,11 @@ Global
 		{45BE5183-4B10-475E-A255-587B1FE69699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45BE5183-4B10-475E-A255-587B1FE69699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45BE5183-4B10-475E-A255-587B1FE69699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CFA02AF-1015-4497-898F-EA7DC27EACC4}
 	EndGlobalSection
 EndGlobal
